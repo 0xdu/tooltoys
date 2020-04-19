@@ -1,5 +1,5 @@
 <body>
-  <form enctype="multipart/form-data" action="upload.php" method="POST">
+  <form enctype="multipart/form-data" action="" method="POST">
     <p>Upload your file</p>
     <input type="file" name="uploaded_file"></input><br />
     <input type="text" name="authkey">
